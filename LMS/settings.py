@@ -131,6 +131,7 @@ STATIC_DIR = os.path.join(BASE_DIR,'static')
 STATICFILES_DIRS = [
     STATIC_DIR,
 ]
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 #HTTPS settings (make true to all of them after ssl certification complited)
 SESSION_COOKIE_SECURE = False
