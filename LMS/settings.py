@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Nipracademy',
+        'NAME': 'Nipracademy-database',
         'USER': 'admin',
         'PASSWORD': 'Nipracademy',
         'HOST': 'nipracademy-database.czyyue26od1b.ap-south-1.rds.amazonaws.com',
@@ -166,6 +166,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "singhvivek49966@gmail.com"
-EMAIL_HOST_PASSWORD = "Vivek@85410"
+EMAIL_HOST_USER = "Nipracademy@gmail.com"
+EMAIL_HOST_PASSWORD = "rajanitin"
 
