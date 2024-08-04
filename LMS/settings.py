@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
+        'NAME': 'Nipracademy',
+        'USER': 'admin',
         'PASSWORD': 'Nipracademy',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': 'nipracademy-database.czyyue26od1b.ap-south-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
