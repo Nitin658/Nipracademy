@@ -27,7 +27,7 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True #make it false after finishing of development
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['nipracademy.in','3.110.154.78','172.31.10.231','127.0.0.1','localhost']
 
 
 # Application definition
