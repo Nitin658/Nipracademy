@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'u716396315_Nipracademy_db',
-        'USER': 'u716396315_admin',
-        'PASSWORD': 'Nipracademy@9955',
-        'HOST': '193.203.184.150',
+        'NAME': 'database-nipracademy',
+        'USER': 'admin',
+        'PASSWORD': 'Nipracademy',
+        'HOST': 'database-nipracademy.czyyue26od1b.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
